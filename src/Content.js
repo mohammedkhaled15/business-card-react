@@ -4,6 +4,7 @@ export default function Content(){
     return (
         <div className="content">
             <h1>Fun Facts About React</h1>
+            <img src="logo512.png"  alt="water mark"/>
             <ul>
                 <li>Was first released in 2013</li>
                 <li>Was originaly created by Jordan Walke</li>

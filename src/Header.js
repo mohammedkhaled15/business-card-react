@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <header>
             <div className="logo">
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo" width="60px"/>
                 <h2>ReactFacts</h2>
             </div>
             <h4>React Course-Project 1</h4>
