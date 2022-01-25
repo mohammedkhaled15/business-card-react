@@ -55,6 +55,7 @@ header button{
     border-radius: 5px;
     outline: none;
     border: none;
+    font-size: 15px;
     font-weight: bold;
     font-family: cairo;
     cursor: pointer;
@@ -71,15 +72,18 @@ header .linkedin{
 header .linkedin icon{
     margin-top: 2px;
 }
+header .email icon{
+    color:black
+}
 /*********************************************/
 .section{
     padding: 10px 20px;
 }
 .section h3{
-    color: #eee;
+    color: #fff;
 }
 .section p{
-    color: #fff;
+    color: #84818D;
     line-height: 1.5;
 }
 /**********************************************/
@@ -98,3 +102,6 @@ header .linkedin icon{
     cursor: pointer;
     width: 100%;
 }
+/* .footer a{
+    cursor: pointer;
+} */
