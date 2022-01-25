@@ -13,8 +13,14 @@ export default function (){
             <h4>Frontend Developer</h4>
             <h6>Egypt, ElGharbia</h6>
             <div className="links">
-                <button className="email"><a href=""><icon><FaEnvelopeOpenText /></icon></a> Email</button>
-                <button className="linkedin"><a><icon><FaLinkedin /></icon></a>Linkedin</button>
+                <a className="email" href="mailto:mkhaled-farag@outlook.com">
+                    <icon><FaEnvelopeOpenText /></icon>
+                    <button> Email</button>
+                </a>
+                <a className="linkedin" href="https://www.linkedin.com/in/mohammed-khaled-farag/">
+                    <icon><FaLinkedin /></icon>
+                    <button >Linkedin</button>
+                </a>
             </div>
         </header>
     )

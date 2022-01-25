@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 body{
     background-color: #1E2024;
@@ -9,7 +10,7 @@ body{
 }
 .container{
     width: 350px;
-    margin: 100px auto;
+    margin: 50px auto;
     border-radius: 8px;
     overflow: hidden;
     background-color: #17191D;
@@ -49,31 +50,39 @@ header .links{
     align-items: center;
     flex-direction: row;
 }
-header button{
+header a{
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
     padding: 3px 5px;
-    border-radius: 5px;
-    outline: none;
+}
+header .links > a:first-child{
+    background-color: #fff;
+}
+header .links > a:last-child{
+    background-color: #4586DC;
+}
+header a icon{
+    padding-right: 12px;
+}
+header a button{
     border: none;
+    outline: none;
+    background-color: transparent;
     font-size: 15px;
     font-weight: bold;
     font-family: cairo;
     cursor: pointer;
-    user-select: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
-
-header .linkedin{
-    background-color: #4586DE;
-    color: #FFF;
+header a.email icon{
+    color:black;
 }
-header .linkedin icon{
-    margin-top: 2px;
-}
-header .email icon{
-    color:black
+header a.linkedin icon, header a.linkedin button{
+    color:#fff;
 }
 /*********************************************/
 .section{
@@ -89,19 +98,17 @@ header .email icon{
 /**********************************************/
 .footer{
     width: 100%;
-    height: 60px;
+    height: 40px;
     display: flex;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
     background-color: #151417;
 }
 .footer icon{
     color: #84818D;
-    font-size: 22px;
+    font-size: 20px;
     padding: 0 10px;
     cursor: pointer;
     width: 100%;
 }
-/* .footer a{
-    cursor: pointer;
-} */
