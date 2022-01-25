@@ -1,19 +1,17 @@
-import React from "react"
-import Header from "./Header"
-import Content from "./Content"
+import React from "react";
 
-export default function App() {
+import Info from "./components/Info"
+import About from "./components/About"
+import Interests from "./components/Interests"
+import Footer from "./components/Footer"
 
-  return (
-
-    <div className="container">
-
-      <Header />
-
-      <Content />
-
-    </div>
-  )
+export default function (){
+    return (
+        <div className="container">
+            <Info />
+            <About />
+            <Interests />
+            <Footer />
+        </div>
+    )
 }
-
-
