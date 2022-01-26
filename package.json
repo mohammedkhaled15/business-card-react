@@ -2,7 +2,7 @@
   "name": "myreactapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohammedkhaled15.github.io/business-card-react",
+  "homepage": "https://mohammedkhaled15.github.io/react-tr-business-card",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
