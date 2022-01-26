@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-tr-business-card/static/css/main.561a96d6.chunk.css",
+    "main.js": "/react-tr-business-card/static/js/main.9e93be72.chunk.js",
+    "main.js.map": "/react-tr-business-card/static/js/main.9e93be72.chunk.js.map",
+    "runtime~main.js": "/react-tr-business-card/static/js/runtime~main.8d8f9566.js",
+    "runtime~main.js.map": "/react-tr-business-card/static/js/runtime~main.8d8f9566.js.map",
+    "static/js/2.fea5a980.chunk.js": "/react-tr-business-card/static/js/2.fea5a980.chunk.js",
+    "static/js/2.fea5a980.chunk.js.map": "/react-tr-business-card/static/js/2.fea5a980.chunk.js.map",
+    "index.html": "/react-tr-business-card/index.html",
+    "precache-manifest.a56e6f72d23da1f5d0ccdac7f2cdb005.js": "/react-tr-business-card/precache-manifest.a56e6f72d23da1f5d0ccdac7f2cdb005.js",
+    "service-worker.js": "/react-tr-business-card/service-worker.js",
+    "static/css/main.561a96d6.chunk.css.map": "/react-tr-business-card/static/css/main.561a96d6.chunk.css.map",
+    "static/media/card.jpg": "/react-tr-business-card/static/media/card.a7007320.jpg"
+  }
+}
